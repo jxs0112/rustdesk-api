@@ -6,15 +6,15 @@ on:
       BASE_IMAGE_NAMESPACE:
         description: 'Base image namespace (Default: Your Github username)'
         required: false
-        default: ''
+        default: 'jxs0112'
       DOCKERHUB_IMAGE_NAMESPACE:
         description: 'Docker Hub image namespace (Default: Your Github username)'
         required: false
-        default: ''
+        default: 'jxs0112'
       GHCR_IMAGE_NAMESPACE:
         description: 'GitHub Container Registry image namespace (Default: Your Github username)'
         required: false
-        default: ''
+        default: 'jxs0112'
       SKIP_DOCKER_HUB:
         description: 'Set to true to skip pushing to Docker Hub (default: false)'
         required: false
